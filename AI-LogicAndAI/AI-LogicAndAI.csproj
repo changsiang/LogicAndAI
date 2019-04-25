@@ -6,4 +6,11 @@
     <RootNamespace>AI_LogicAndAI</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="LogicFormula\" />
+    <Folder Include="BinaryDecisionTree\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="BinaryDecisionTree\BinaryDecisionTreeFromFormula.cs" />
+  </ItemGroup>
 </Project>

@@ -15,6 +15,8 @@ namespace AI_LogicAndAI
             p.Value = true;
             Console.WriteLine(formula.Evaluate());
 
+            p.Value = false;
+
             Console.Read();
         }
     }
